@@ -19,15 +19,19 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto";
+    font-family: "Lato";
     font-weight: 300;
-    margin-top: -4px;
     color: #333;
 }
 
-#publication h1 {
+h1 {
+	margin-top: -4px;
+}
+h2 {
+	text-align: center;
 	font-size: 50px;
 	font-weight: 300;
+	padding: 40px 0px 60px;
 }
 /* Paragraph & Typographic */
 p {
@@ -307,4 +311,13 @@ hr.style-two {
     background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    padding: 0;
+	margin: 0;
+}
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
