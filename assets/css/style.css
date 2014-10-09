@@ -2,6 +2,7 @@
   font-size: 20px;
   font-weight: 300;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 @media (min-width: 768px) {
   .timelineitem:nth-child(odd) {
@@ -76,4 +77,71 @@
   .tdesc {
     font-size: 16px;
   }
+}
+
+#publication {
+
+}
+
+@media (min-width: 992px) {
+  .pub-heading {
+    
+  }
+}
+
+@media (min-width: 768px) {
+
+  .pub-heading {
+    font-size: 30px;
+  }
+  .pubimg {
+    border: 3px solid white;
+  }
+
+}
+
+.pub-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.pub-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+.indi_pubs{
+  font-family:"Roboto";
+  text-align: justify;
+  margin-top: 60px;
+}
+
+.pub-abstract {
+  font-size: 18px;
+}
+
+.pub-auth {
+  font-size: 18px;
+  color: #34495e;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.pub-conf {
+  font-size: 18px;
+}
+
+.pub-links {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -webkit-column-rule-width: 1px;
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    width: 20%;
+    padding-top: 10px;
+}
+
+.pub-links:before {
+  padding-top: 10px;
 }

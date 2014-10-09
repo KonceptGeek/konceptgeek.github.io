@@ -20,8 +20,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="assets/css/style.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- Resource style -->
 
     
     <script src="assets/js/jquery.min.js"></script>
@@ -38,71 +37,106 @@
 
   <body data-spy="scroll" data-offset="0" data-target="#nav">
 
-	<div id="headerwrap">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-12">
-					<img src="assets/img/portrait.jpg" class="img-circle imgportrait">
-					<h1>Jasneet Sabharwal</h1>
-					<h3>Simon Fraser University Computing Science Masters Student</h3>
-					<h3>jsabharw _at_ sfu.ca</h3>
-					
-					<a href="https://github.com/KonceptGeek"><i class="icon-github"></i></a>
-					<a href="http://ca.linkedin.com/in/jasneetsabharwal"><i class="icon-linkedin"></i></a>
-					<a href="http://twitter.com/KonceptGeek"><i class="icon-twitter"></i></a>
-					<a href="https://plus.google.com/104200685572136464893"><i class="icon-google-plus"></i></a>
+  	<div id="headerwrap">
+  		<div class="container">
+  			<div class="row centered">
+  				<div class="col-lg-12">
+  					<img src="assets/img/portrait.jpg" class="img-circle imgportrait">
+  					<h1>Jasneet Sabharwal</h1>
+  					<h3>Simon Fraser University Computing Science Masters Student</h3>
+  					<h3>jsabharw _at_ sfu.ca</h3>
+  					
+  					<a href="https://github.com/KonceptGeek"><i class="icon-github"></i></a>
+  					<a href="http://ca.linkedin.com/in/jasneetsabharwal"><i class="icon-linkedin"></i></a>
+  					<a href="http://twitter.com/KonceptGeek"><i class="icon-twitter"></i></a>
+  					<a href="https://plus.google.com/104200685572136464893"><i class="icon-google-plus"></i></a>
 
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
+  				</div><!--/.col-lg-12 -->
+  			</div><!--/.row -->
+  		</div><!--/.container -->
+  	</div><!--/.#headerwrap -->
 	
 
+    <div class="container">
+    	<section id="resume" name="resume"></section>
+    	<!--EDUCATION DESCRIPTION -->
+    	<div id="timeline">
+        <div class="timelineitem">
+          <div class="tdate">Summer 2014</div>
+          <div class="ttitle"><a href="http://maluuba.com">Maluuba Inc</a>: NLP Development Intern</div>
+          <div class="tdesc">Supervised classification and information extraction from natural language queries. Emphasised on feature engineering,
+          feature reduction, model training &amp fine tuning and post-processing.
+          </div>
+        </div>
+        
+        <div class="timelineitem">
+          <div class="tdate">September 2013 -</div>
+          <div class="ttitle"><a href="http://natlang.cs.sfu.ca/">Natural Language Lab</a>, Simon Fraser University: Research Assistant</div>
+          <div class="tdesc">Visualization of historical human events using dimensionality reduction techniques.</div>
+        </div>
 
-	<section id="resume" name="resume"></section>
-	<!--EDUCATION DESCRIPTION -->
-	<div id="timeline">
-    <div class="timelineitem">
-      <div class="tdate">Summer 2014</div>
-      <div class="ttitle"><a href="http://maluuba.com">Maluuba Inc</a>: NLP Development Intern</div>
-      <div class="tdesc">Supervised classification and information extraction from natural language queries. Emphasised on feature engineering,
-      feature reduction, model training &amp fine tuning and post-processing.
+        <div class="timelineitem">
+          <div class="tdate">September 2013 -</div>
+          <div class="ttitle"><a href="http://sfu.ca/">Simon Fraser University</a>: MSc. Computing Science</div>
+          <div class="tdesc">Specializing in Natural Language Processing (emphasis on Machine Learning application). My advisors are
+          <a href="http://www.cs.sfu.ca/~anoop/">Anoop Sarkar</a> and <a href="http://www.sfu.ca/~popowich/public/Home.html">Fred Popowich</a>.</div>
+        </div>
+
+        <div class="timelineitem">
+          <div class="tdate">May 2012 - July 2013</div>
+          <div class="ttitle"><a href="http://germin8.com/">Germin8</a>: Software Engineer (Analysis Engine Research Team)</div>
+          <div class="tdesc">Sentiment Analsysis, Named Entity Recognition, Intention Analysis, Realtime Distributed Analysis Framework.</div>
+        </div>
+
+        <div class="timelineitem">
+          <div class="tdate">March 2011 - May 2012</div>
+          <div class="ttitle"><a href="http://ngicorporation.com">NextGen Invent Corporation</a>: Software Engineer (PureAnalyzer Team)</div>
+          <div class="tdesc">Sentiment Analsysis, Web Crawling, Big Data Indexing and Searching.</div>
+        </div>
+
+        <div class="timelineitem">
+          <div class="tdate">2006 - 2010</div>
+          <div class="ttitle"><a href="http://www.ipu.ac.in/">Guru Gobind Singh Indraprastha University</a>: Bachelor of Technology</div>
+          <div class="tdesc">Majored in Computer Science and Engineering</div>
+        </div>
+
       </div>
     </div>
+
+    <hr class="style-two">
+
+    <div class="container desc">
+      <section id="publication" name="publication"></section>
+      <div id="publication">
+        <div class="row centered">
+          <div class="col-lg-12">
+            <h1>Publication</h1>
+          </div>
+        </div>
+        <div class="indi_pubs">
+            <div class="col-md-7">
+              <h2 class="pub-heading">End-to-End Sentiment Analysis of Twitter Data</a></h2>
+              <div class="pub-abstract">We presented an end-to-end pipeline for sentiment analysis of Twitter data and showed that
+              a hierarchal cascaded pipeline of three models to label a tweet as Objective, Neutral, Positive and Negative class is better
+              than a 4-way classifier design.</div>
+              <div class="pub-auth">Apoorv Agarwal and Jasneet Singh Sabharwal</div>
+              <div class="pub-conf">In Proceedings of the Workshop on Information Extraction and Entity Analytics on Social Media Data, COLING 2012, the 24th International Conference on Computational Linguistics.</div>
+              <div class="pub-links">
+                <div class="pub-url"><a href="http://www.aclweb.org/anthology/W12-5504">PDF</a></div>
+                <div class="pub-bib"><a href="http://www.aclweb.org/anthology/W/W12/W12-5504.bib">Bibtex</a></div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img class="img-square pubimg" src="assets/img/pub1.png">
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <hr class="style-two">
+    <div id="footwrap">
     
-    <div class="timelineitem">
-      <div class="tdate">September 2013 -</div>
-      <div class="ttitle"><a href="http://natlang.cs.sfu.ca/">Natural Language Lab</a>, Simon Fraser University: Research Assistant</div>
-      <div class="tdesc">Visualization of historical human events using dimensionality reduction techniques.</div>
-    </div>
-
-    <div class="timelineitem">
-      <div class="tdate">September 2013 -</div>
-      <div class="ttitle"><a href="http://sfu.ca/">Simon Fraser University</a>: MSc. Computing Science</div>
-      <div class="tdesc">Specializing in Natural Language Processing (emphasis on Machine Learning application). My advisors are
-      <a href="http://www.cs.sfu.ca/~anoop/">Anoop Sarkar</a> and <a href="http://www.sfu.ca/~popowich/public/Home.html">Fred Popowich</a>.</div>
-    </div>
-
-    <div class="timelineitem">
-      <div class="tdate">May 2012 - July 2013</div>
-      <div class="ttitle"><a href="http://germin8.com/">Germin8</a>: Software Engineer (Analysis Engine Research Team)</div>
-      <div class="tdesc">Sentiment Analsysis, Named Entity Recognition, Intention Analysis, Realtime Distributed Analysis Framework.</div>
-    </div>
-
-    <div class="timelineitem">
-      <div class="tdate">March 2011 - May 2012</div>
-      <div class="ttitle"><a href="http://ngicorporation.com">NextGen Invent Corporation</a>: Software Engineer (PureAnalyzer Team)</div>
-      <div class="tdesc">Sentiment Analsysis, Web Crawling, Big Data Indexing and Searching.</div>
-    </div>
-
-    <div class="timelineitem">
-      <div class="tdate">2006 - 2010</div>
-      <div class="ttitle"><a href="http://www.ipu.ac.in/">Guru Gobind Singh Indraprastha University</a>: Bachelor of Technology</div>
-      <div class="tdesc">Majored in Computer Science and Engineering</div>
-    </div>
-
-  </div>
-
+  </div><!--/ #footer -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

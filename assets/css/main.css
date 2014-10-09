@@ -25,7 +25,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
-
+#publication h1 {
+	font-size: 50px;
+	font-weight: 300;
+}
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
@@ -191,6 +194,7 @@ a [class^="icon-"], a [class*=" icon-"] {
 	font-size: 40px;
 	padding-left: 10px;
 }
+
 .imgportrait {
   border: 3px solid white;
   /*float: left;*/
@@ -294,4 +298,13 @@ a [class^="icon-"], a [class*=" icon-"] {
 
 sm {
 	font-size: 12px;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
