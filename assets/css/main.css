@@ -163,7 +163,7 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/header_blur2.jpg) no-repeat center top;
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1.0) ), url(../img/header_blur2.jpg) no-repeat center top;
 	/*margin-top: 60px;*/
 	padding-top:140px;
 	text-align:center;
@@ -201,6 +201,7 @@ a [class^="icon-"], a [class*=" icon-"] {
 
 .imgportrait {
   border: 3px solid white;
+  width: 150px;
   /*float: left;*/
 }
 
